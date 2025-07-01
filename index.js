@@ -80,4 +80,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login("MTM4OTQ2MTk3MTM1ODg0NzAyNg.GMifq0.GADzZkyimrRYCAD2yRBBSzxA8wen6yWQKbtQqo");
+client.login(process.env.TOKEN);
